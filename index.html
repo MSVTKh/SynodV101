@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presbyterian Church of India</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <style>
+        /* Additional CSS styles */
+        body {
+            font-family: Arial, sans-serif; /* Specify your preferred font-family */
+        }
+        h1, h2 {
+            line-height: 1; /* Adjust line height for headings */
+        }
+        h3, h4 {
+            line-height: .5; /* Adjust line height for headings */
+        }
+        .logo-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .logo-container img {
+            width: 20%; /* Set the width to 20% of its original size */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .additional-info {
+            font-style: italic;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .footer {
+            font-style: italic;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MIZORAM PRESBYTERIAN KOHHRAN</h1>
+        <h2>Presbyterian Church of India</h2>
+        <div class="logo-container">
+            <img src="Logo.png" alt="Church Logo">
+        </div>
+        <h3>Mission Vengthlang Pastor Bial</h3>
+        <h4 style="font-size: 1.5em;">SYNOD INKHAWMPUI VAWI 101-NA</h4>
+        <h5 style="font-size: 2em;">PALAI THLEN IN ZAWNNA</h5> <!-- Adjusted font size -->
+    </header>
+    <main>
+        <input type="text" id="inputField" placeholder="Hming/Mobile Number/Presbytery/Kohhran">
+        <button onclick="getDetails()">Hmet rawh</button>
+        <div id="result"></div>
+        <p class="additional-info"><em>Harsatna i neih chuan heng Mobile number: 9436360270 (Chairman, Reception Committee) leh 9612862590 (Secretary, Reception Committee) te hi engtik lai pawhin biak theih reng an ni e</em></p>
+    </main>
+    <footer class="footer">
+        <em>Siamtu - Synod Inkhawmpui Vawi 101-na Reception Committee</em>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
